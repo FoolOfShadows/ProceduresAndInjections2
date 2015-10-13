@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6233" systemVersion="14A329f" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6233"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
+        <capability name="box content view" minToolsVersion="7.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -11,8 +13,69 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target">
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Procedures___Injections_2_0" customModuleProvider="target">
             <connections>
+                <outlet property="arthSiteView" destination="TFq-ZI-h34" id="bdS-Lo-7b9"/>
+                <outlet property="b12SiteView" destination="5LZ-4j-bVU" id="mIu-4u-54L"/>
+                <outlet property="cSiteView" destination="jP9-fF-EN6" id="EQg-SQ-upU"/>
+                <outlet property="coumadinView" destination="NWP-hY-L22" id="lbm-Ha-JmL"/>
+                <outlet property="cryoTextView" destination="AnE-15-GfB" id="GZl-8k-qCu"/>
+                <outlet property="depoSiteView" destination="T45-bq-4my" id="7kb-Oa-XLt"/>
+                <outlet property="diabeticDietView" destination="trU-Oi-ZAn" id="KnR-JI-fOG"/>
+                <outlet property="dietaryFiberView" destination="2Ns-97-19f" id="990-XM-NM3"/>
+                <outlet property="dkSiteView" destination="iIL-fT-wu1" id="Muy-oK-16l"/>
+                <outlet property="dreView" destination="Dyi-1O-j0i" id="yQu-8P-2dH"/>
+                <outlet property="earLavageView" destination="vTD-Rc-iad" id="01n-OD-Ojh"/>
+                <outlet property="educationTextView" destination="7Lt-M8-ytg" id="dme-Ha-ahx"/>
+                <outlet property="ekgView" destination="bAm-AF-QcD" id="vds-jM-omY"/>
+                <outlet property="epoSiteView" destination="ZX1-06-4lX" id="GBl-81-ncf"/>
+                <outlet property="estSiteView" destination="ApP-oJ-Avq" id="mvn-me-rw0"/>
+                <outlet property="exerciseView" destination="anH-j2-peN" id="b8i-aG-3OX"/>
+                <outlet property="fluSiteView" destination="D1f-bt-F3h" id="V7H-cJ-EfD"/>
+                <outlet property="fluSwabComboView" destination="CKr-Zv-CJ8" id="kZz-Ve-49y"/>
+                <outlet property="fluTypeView" destination="RAQ-Hh-lap" id="D2E-mt-MMw"/>
+                <outlet property="glucometerTextView" destination="e5v-gA-d8K" id="WOj-nl-rT1"/>
+                <outlet property="hepA1View" destination="8sy-He-UT5" id="3o4-sN-ReA"/>
+                <outlet property="hepA2View" destination="nTy-LT-5vy" id="Fpi-Rn-3bd"/>
+                <outlet property="hepB1View" destination="H3c-CK-MaG" id="FdR-V7-l5s"/>
+                <outlet property="hepB2View" destination="o9p-3u-E40" id="yfI-mj-JgF"/>
+                <outlet property="hepB3View" destination="6Fu-oz-xUn" id="mmh-SW-v5v"/>
+                <outlet property="hepSiteView" destination="aVv-3O-qms" id="2qW-eY-Pzb"/>
+                <outlet property="hepTRx1View" destination="5de-tk-vB6" id="EI2-Q1-8Tw"/>
+                <outlet property="hepTRx2View" destination="VDR-FC-mH6" id="h2x-tI-Ad8"/>
+                <outlet property="hepTRx3View" destination="egH-jZ-Ean" id="A2c-15-HZx"/>
+                <outlet property="hypertensionView" destination="L78-8q-OqN" id="AgL-aT-bjr"/>
+                <outlet property="idView" destination="hHN-4C-uzr" id="dNp-9a-39P"/>
+                <outlet property="lowCholesterolView" destination="VrJ-mC-1he" id="n1u-HT-H45"/>
+                <outlet property="lowSaltView" destination="BfX-MT-F9p" id="WDL-M8-imF"/>
+                <outlet property="mudsComboView" destination="IYY-8n-nkE" id="2Gw-cz-HSs"/>
+                <outlet property="nebulizerView" destination="ehK-tS-YZN" id="t3u-4E-4U9"/>
+                <outlet property="nphSiteView" destination="hSJ-S2-ezb" id="Kzr-Tr-tjU"/>
+                <outlet property="otherTextView" destination="iOs-AC-ht6" id="alp-8j-iTz"/>
+                <outlet property="papView" destination="JPW-Ny-2Af" id="JTn-8b-o3j"/>
+                <outlet property="phSiteView" destination="KQq-tb-Rqf" id="LdP-oJ-iVa"/>
+                <outlet property="pnvSiteView" destination="HvD-Fs-Uso" id="IaG-5a-Fek"/>
+                <outlet property="ppdSiteView" destination="7BL-ay-Zcg" id="yUL-wO-UtX"/>
+                <outlet property="rocAmountView" destination="afr-iX-ETD" id="zR2-Iv-f1O"/>
+                <outlet property="rocSiteView" destination="GmW-ge-pv5" id="ygs-zI-fkj"/>
+                <outlet property="samplesTextView" destination="8hb-ix-feJ" id="eEW-5Z-cyr"/>
+                <outlet property="skinTagTextView" destination="fls-LJ-uBq" id="Ypo-pk-b7H"/>
+                <outlet property="solSiteView" destination="2G0-Ut-bNH" id="dP9-pZ-MpX"/>
+                <outlet property="stoolCardView" destination="NGg-V1-q7z" id="BMl-rr-oFE"/>
+                <outlet property="stressView" destination="TBA-3X-mO4" id="483-Ey-bNj"/>
+                <outlet property="sutureRemovalTextView" destination="DFU-Bk-lKH" id="fgn-E1-ga0"/>
+                <outlet property="synvSiteView" destination="izL-dV-2O1" id="EVM-uQ-0K6"/>
+                <outlet property="tdapSiteView" destination="1xU-0O-xKE" id="2Ix-9V-Mbe"/>
+                <outlet property="tobaccoView" destination="76X-dA-CjP" id="WkN-hG-wIU"/>
+                <outlet property="torAmountView" destination="Bih-yO-B7a" id="afI-Uu-Lxd"/>
+                <outlet property="torSiteView" destination="YKj-Z2-783" id="EyM-wc-ixq"/>
+                <outlet property="trigSiteView" destination="P7B-Jy-pVC" id="a0s-xM-tum"/>
+                <outlet property="tstSiteView" destination="CiO-rb-bNw" id="A5v-yn-oKJ"/>
+                <outlet property="ucgComboView" destination="3aF-1P-9Ch" id="WkH-rn-igj"/>
+                <outlet property="udipView" destination="dgq-de-zt4" id="xix-IH-RIH"/>
+                <outlet property="udsComboView" destination="wVE-sf-gnI" id="oXx-Ns-5aL"/>
+                <outlet property="weightLossView" destination="5sb-43-fBN" id="lGp-8a-UZC"/>
+                <outlet property="winEducation" destination="7IF-2z-4Qj" id="E3j-tc-MZ2"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -101,7 +164,8 @@
                                     <action selector="saveDocument:" target="-1" id="teZ-XB-qJY"/>
                                 </connections>
                             </menuItem>
-                            <menuItem title="Save As…" keyEquivalent="S" id="Bw7-FT-i3A">
+                            <menuItem title="Save As…" keyEquivalent="s" id="Bw7-FT-i3A">
+                                <modifierMask key="keyEquivalentModifierMask" shift="YES" command="YES"/>
                                 <connections>
                                     <action selector="saveDocumentAs:" target="-1" id="mDf-zr-I0C"/>
                                 </connections>
@@ -667,14 +731,1200 @@
             </items>
         </menu>
         <window title="Procedures &amp; Injections 2.0" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="QvC-M9-y7g">
-            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
+            <rect key="contentRect" x="335" y="390" width="607" height="647"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1177"/>
             <view key="contentView" id="EiT-Mj-1SZ">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <rect key="frame" x="0.0" y="0.0" width="607" height="647"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Office Procedures" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="mTj-0G-W52">
+                        <rect key="frame" x="17" y="456" width="414" height="171"/>
+                        <view key="contentView" id="1d6-O2-vdD">
+                            <rect key="frame" x="1" y="1" width="412" height="155"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hHN-4C-uzr">
+                                    <rect key="frame" x="286" y="129" width="43" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="I/D" bezelStyle="regularSquare" imagePosition="left" inset="2" id="ADu-XM-VYj">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPW-Ny-2Af">
+                                    <rect key="frame" x="16" y="129" width="48" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="PAP" bezelStyle="regularSquare" imagePosition="left" inset="2" id="vOc-Eq-Uqs">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vTD-Rc-iad">
+                                    <rect key="frame" x="88" y="99" width="104" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="pYx-qG-TRl">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="aIy-s5-EsA">
+                                            <items>
+                                                <menuItem id="43L-lO-NT2">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                                <menuItem title="right ear" id="IBB-CO-nHa"/>
+                                                <menuItem title="left ear" id="s4D-UV-3dU"/>
+                                                <menuItem title="both ears" id="oQv-Tr-Xh0"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ehK-tS-YZN">
+                                    <rect key="frame" x="258" y="98" width="139" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" title="Duoneb" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="ZbP-hG-v9w" id="pDD-f3-osD">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="Mbi-f4-Hm3">
+                                            <items>
+                                                <menuItem id="V2X-Lg-Ybg">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                                <menuItem title="Albuterol" id="auH-lK-A0F"/>
+                                                <menuItem title="Atrovent" id="Okp-Ih-XGc"/>
+                                                <menuItem title="Duoneb" state="on" id="ZbP-hG-v9w"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bAm-AF-QcD">
+                                    <rect key="frame" x="346" y="129" width="50" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="EKG" bezelStyle="regularSquare" imagePosition="left" inset="2" id="GYc-lm-lIx">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AnE-15-GfB">
+                                    <rect key="frame" x="67" y="75" width="327" height="22"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="0RY-3r-13j">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bHW-zR-frX">
+                                    <rect key="frame" x="16" y="105" width="71" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Ear Lavage" id="vzV-EP-PIW">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dyi-1O-j0i">
+                                    <rect key="frame" x="81" y="129" width="50" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="DRE" bezelStyle="regularSquare" imagePosition="left" inset="2" id="vmI-7b-X3z">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uQJ-X3-Yif">
+                                    <rect key="frame" x="195" y="105" width="71" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Nebulizer" id="jQR-GL-CJw">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fls-LJ-uBq">
+                                    <rect key="frame" x="90" y="44" width="304" height="22"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="ZPl-a5-TX2">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vo5-M1-iHq">
+                                    <rect key="frame" x="16" y="78" width="45" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Cryo x" id="Xdv-0O-nzg">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eUA-Bf-hTA">
+                                    <rect key="frame" x="16" y="17" width="105" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Sut/Stap Rmvl x" id="edl-aW-23L">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NGg-V1-q7z">
+                                    <rect key="frame" x="149" y="129" width="114" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="Stool Cards x3" bezelStyle="regularSquare" imagePosition="left" inset="2" id="nZH-4p-YgL">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="auv-av-rtX">
+                                    <rect key="frame" x="16" y="47" width="68" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Skin Tag x" id="hIW-KL-kdP">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DFU-Bk-lKH">
+                                    <rect key="frame" x="127" y="14" width="267" height="22"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="L2A-Xc-zJk">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <animations/>
+                        </view>
+                        <animations/>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Injections" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="Z5A-hI-4cc">
+                        <rect key="frame" x="17" y="57" width="414" height="395"/>
+                        <view key="contentView" id="cCx-Lt-fyg">
+                            <rect key="frame" x="1" y="1" width="412" height="379"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8sy-He-UT5">
+                                    <rect key="frame" x="16" y="72" width="44" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="A 1" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Wg5-JM-UBj">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m1t-4i-2Py">
+                                    <rect key="frame" x="19" y="275" width="29" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="B12" id="lzz-We-xHj">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T45-bq-4my">
+                                    <rect key="frame" x="242" y="194" width="155" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="BMW-sg-I7N" id="Yfb-pb-Gpx">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="owl-VA-RzT">
+                                            <items>
+                                                <menuItem state="on" id="BMW-sg-I7N"/>
+                                                <menuItem title="R Delt IM" id="7fJ-Y0-NxI"/>
+                                                <menuItem title="L Delt IM" id="me5-xD-6dd"/>
+                                                <menuItem title="R Glut IM" id="NKa-wj-fov"/>
+                                                <menuItem title="L Glut IM" id="09t-0m-jSx"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZX1-06-4lX">
+                                    <rect key="frame" x="242" y="169" width="155" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="6Hq-gH-FlR" id="XbG-4J-Yb7">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="dK6-eV-TnO">
+                                            <items>
+                                                <menuItem state="on" id="6Hq-gH-FlR"/>
+                                                <menuItem title="R Upper Arm SC" id="fQx-Ow-AHe"/>
+                                                <menuItem title="L Upper Arm SC" id="X5e-0B-xMo"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TFq-ZI-h34">
+                                    <rect key="frame" x="52" y="145" width="137" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="2pj-1e-OzZ" id="r4O-3J-vzO">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="WyM-ax-dfn">
+                                            <items>
+                                                <menuItem state="on" id="2pj-1e-OzZ">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                                <menuItem title="R Knee" id="Pqf-az-jtb"/>
+                                                <menuItem title="L Knee" id="a8S-9n-fiI"/>
+                                                <menuItem title="Both Knees" id="4Wb-Lw-MQZ"/>
+                                                <menuItem title="R Shoulder" id="MkN-Rk-u2s"/>
+                                                <menuItem title="L Shoulder" id="O0T-tn-51M"/>
+                                                <menuItem title="Both Shoulders" id="GUg-gu-ggy"/>
+                                                <menuItem title="R Elbow" id="0QR-Uq-J8R"/>
+                                                <menuItem title="L Elbow" id="1fb-V9-VNt"/>
+                                                <menuItem title="Both Elbows" id="GcH-af-tW5"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oZW-Np-tt4">
+                                    <rect key="frame" x="18" y="17" width="39" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Other" id="0dw-uI-r8W">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TG3-X2-4KL">
+                                    <rect key="frame" x="27" y="250" width="21" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Ph" id="6CR-XG-Fg7">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rvj-mn-zPc">
+                                    <rect key="frame" x="206" y="350" width="32" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="PPD" id="s8G-pZ-iKr">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bih-yO-B7a">
+                                    <rect key="frame" x="52" y="219" width="55" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="aOp-5v-x9U" id="JaU-Z2-3IR">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="WPP-Bu-qCu">
+                                            <items>
+                                                <menuItem state="on" id="aOp-5v-x9U">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                                <menuItem title="30" id="n0I-uJ-CXU"/>
+                                                <menuItem title="60" id="N7d-5n-v2G"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tjz-eZ-hKg">
+                                    <rect key="frame" x="201" y="199" width="37" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Depo" id="vx1-ku-0no">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSJ-S2-ezb">
+                                    <rect key="frame" x="242" y="244" width="155" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="3Ry-5c-Se2" id="wCL-z8-2vM">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="rCg-51-h3S">
+                                            <items>
+                                                <menuItem state="on" id="3Ry-5c-Se2"/>
+                                                <menuItem title="R Delt IM" id="k8Y-ea-Pll"/>
+                                                <menuItem title="L Delt IM" id="YlU-r0-mmB"/>
+                                                <menuItem title="R Glut IM" id="y5P-AJ-ps4"/>
+                                                <menuItem title="L Glut IM" id="GgE-Zs-n5u"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-3O-qms">
+                                    <rect key="frame" x="280" y="72" width="117" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="ZWq-Wv-MjD">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="ycw-Q7-l90">
+                                            <items>
+                                                <menuItem id="9LR-l4-32f"/>
+                                                <menuItem title="R Delt IM" id="9t0-aM-zCP"/>
+                                                <menuItem title="R Delt SC" id="wgM-5V-v1M"/>
+                                                <menuItem title="L Delt IM" id="5ih-LW-4fH"/>
+                                                <menuItem title="L Delt SC" id="KSd-4b-Efl"/>
+                                                <menuItem title="R Glut IM" id="w6h-T7-VsY"/>
+                                                <menuItem title="R Glut SC" id="WBp-2b-n40"/>
+                                                <menuItem title="L Glut IM" id="NiI-Wh-XQ2"/>
+                                                <menuItem title="L Glut SC" id="f26-f0-dV1"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o9p-3u-E40">
+                                    <rect key="frame" x="64" y="50" width="42" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="B 2" bezelStyle="regularSquare" imagePosition="left" inset="2" id="yGx-5x-n0R">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ya9-7e-rD5">
+                                    <rect key="frame" x="202" y="274" width="36" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Tdap" id="Grg-Lh-c2Z">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iIL-fT-wu1">
+                                    <rect key="frame" x="52" y="345" width="137" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="DhX-fR-tbc" id="M35-bB-PwR">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="fhs-KR-HpW">
+                                            <items>
+                                                <menuItem state="on" id="DhX-fR-tbc"/>
+                                                <menuItem title="R Delt IM" id="Xte-f9-9Me"/>
+                                                <menuItem title="L Delt IM" id="m2M-OX-Wqc"/>
+                                                <menuItem title="R Glut IM" id="03F-fK-oKk"/>
+                                                <menuItem title="L Glut IM" id="l5m-Jj-oIv"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="afr-iX-ETD">
+                                    <rect key="frame" x="242" y="219" width="79" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="2rj-m7-rnW" id="dZ7-WA-AJO">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="83E-fE-wSB">
+                                            <items>
+                                                <menuItem state="on" id="2rj-m7-rnW">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                                <menuItem title="1 gm/2.1 ml" id="Hua-Pp-8qp">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                                <menuItem title="500 mg/1 ml" id="bBn-5M-7G1"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4rp-Ih-EGC">
+                                    <rect key="frame" x="26" y="200" width="22" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Tst" id="2eI-kj-Mns">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iOs-AC-ht6">
+                                    <rect key="frame" x="63" y="14" width="331" height="22"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="szK-ZK-gW2">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CiO-rb-bNw">
+                                    <rect key="frame" x="52" y="195" width="137" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Cpz-o0-53W" id="s9D-gi-Lgd">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="Hml-ac-M56">
+                                            <items>
+                                                <menuItem state="on" id="Cpz-o0-53W"/>
+                                                <menuItem title="R Delt IM" id="2hg-tq-Ccz"/>
+                                                <menuItem title="L Delt IM" id="gfE-GU-Fb8"/>
+                                                <menuItem title="R Glut IM" id="kBR-0Q-Lse"/>
+                                                <menuItem title="L Glut IM" id="8dK-zc-qSH"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k6d-De-5GS">
+                                    <rect key="frame" x="203" y="150" width="35" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Synv" id="O4q-bO-oUg">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H3c-CK-MaG">
+                                    <rect key="frame" x="64" y="72" width="42" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="B 1" bezelStyle="regularSquare" imagePosition="left" inset="2" id="rVh-t0-ES2">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u56-vl-6Vm">
+                                    <rect key="frame" x="16" y="96" width="141" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Hepatitis Vaccination:" id="yty-ZN-0c0">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jP9-fF-EN6">
+                                    <rect key="frame" x="52" y="320" width="137" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="hpB-ab-jcB" id="dkH-g0-jyO">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="SJ3-g5-mqb">
+                                            <items>
+                                                <menuItem state="on" id="hpB-ab-jcB"/>
+                                                <menuItem title="R Delt IM" id="7Qi-Qx-uOq"/>
+                                                <menuItem title="R Delt SC" id="ZdO-0U-8G4"/>
+                                                <menuItem title="L Delt IM" id="5Yr-Je-GyT"/>
+                                                <menuItem title="L Delt SC" id="qel-gb-uw1"/>
+                                                <menuItem title="R Glut IM" id="QBl-ap-An9"/>
+                                                <menuItem title="R Glut SC" id="fkx-rr-5EL"/>
+                                                <menuItem title="L Glut IM" id="xb7-CN-Rys"/>
+                                                <menuItem title="L Glut SC" id="b3h-Vg-OWW"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HvD-Fs-Uso">
+                                    <rect key="frame" x="242" y="294" width="155" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="yu0-aQ-QTa" id="BAf-1Z-2Cg">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="goS-8f-LCx">
+                                            <items>
+                                                <menuItem state="on" id="yu0-aQ-QTa"/>
+                                                <menuItem title="R Delt IM" id="bOH-O2-ufb"/>
+                                                <menuItem title="R Delt SC" id="6rc-Tb-hfD"/>
+                                                <menuItem title="L Delt IM" id="2WY-ku-DPk"/>
+                                                <menuItem title="L Delt SC" id="THQ-jl-9vw"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D1f-bt-F3h">
+                                    <rect key="frame" x="325" y="320" width="72" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="dwR-to-zHT">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="Z3x-NJ-5CR">
+                                            <items>
+                                                <menuItem id="uo1-OP-Z95"/>
+                                                <menuItem title="R Delt IM" id="W0Z-bZ-o57"/>
+                                                <menuItem title="L Delt IM" id="9aG-9h-8Pk"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="egH-jZ-Ean">
+                                    <rect key="frame" x="218" y="73" width="58" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="TRx 3" bezelStyle="regularSquare" imagePosition="left" inset="2" id="D77-Lf-pnC">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ApP-oJ-Avq">
+                                    <rect key="frame" x="52" y="170" width="137" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="FeF-fI-eid" id="Pav-j2-xJt">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="nBe-cJ-5FK">
+                                            <items>
+                                                <menuItem state="on" id="FeF-fI-eid"/>
+                                                <menuItem title="R Delt IM" id="AJO-f5-H8M"/>
+                                                <menuItem title="L Delt IM" id="aF0-23-4lO"/>
+                                                <menuItem title="R Glut IM" id="7Ty-2J-54x"/>
+                                                <menuItem title="L Glut IM" id="8Or-1R-Yzp"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MNs-wh-95B">
+                                    <rect key="frame" x="18" y="150" width="30" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Arth" id="bfZ-ri-GzI">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z3Z-96-AEx">
+                                    <rect key="frame" x="209" y="224" width="29" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Roc" id="rO5-3R-sfe">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="izL-dV-2O1">
+                                    <rect key="frame" x="242" y="145" width="155" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="D4k-zH-byw" id="GWm-p9-ucD">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="xWo-fu-e7R">
+                                            <items>
+                                                <menuItem state="on" id="D4k-zH-byw">
+                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                </menuItem>
+                                                <menuItem title="R Knee" id="OpO-KX-KZf"/>
+                                                <menuItem title="L Knee" id="fZh-3j-rYx"/>
+                                                <menuItem title="Both Knees" id="UcE-L4-R6R"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LGP-gE-Cvi">
+                                    <rect key="frame" x="21" y="126" width="27" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Trig" id="gBP-Qh-v6W">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pVV-Os-6VB">
+                                    <rect key="frame" x="25" y="225" width="23" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Tor" id="SDd-wm-aaT">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2G0-Ut-bNH">
+                                    <rect key="frame" x="52" y="295" width="137" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Bij-uL-qRL" id="dH4-7Z-Iv1">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="QQP-kS-bVw">
+                                            <items>
+                                                <menuItem state="on" id="Bij-uL-qRL"/>
+                                                <menuItem title="R Delt IM" id="rxP-sq-fuK"/>
+                                                <menuItem title="L Delt IM" id="CNe-dO-dvp"/>
+                                                <menuItem title="R Glut IM" id="BCr-6w-C8o"/>
+                                                <menuItem title="L Glut IM" id="efg-YH-Nxd"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GmW-ge-pv5">
+                                    <rect key="frame" x="325" y="219" width="72" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="tos-IJ-qYP">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="5bU-4K-AVu">
+                                            <items>
+                                                <menuItem id="bm6-Ik-Itw"/>
+                                                <menuItem title="R Glut IM" id="zEg-qk-iTQ"/>
+                                                <menuItem title="L Glut IM" id="raK-Ui-uV6"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rmv-ld-1tD">
+                                    <rect key="frame" x="215" y="327" width="23" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Flu" id="Pqa-my-EpN">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k0o-hY-N6C">
+                                    <rect key="frame" x="24" y="300" width="24" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Sol" id="VrR-Ml-dZF">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nH7-ZM-FvH">
+                                    <rect key="frame" x="20" y="350" width="28" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="D/K" id="pep-l1-7be">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VDR-FC-mH6">
+                                    <rect key="frame" x="156" y="50" width="58" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="TRx 2" bezelStyle="regularSquare" imagePosition="left" inset="2" id="hUn-9j-f8n">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1xU-0O-xKE">
+                                    <rect key="frame" x="242" y="269" width="155" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" id="bjF-OU-8fn">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="xgk-ya-YZ5">
+                                            <items>
+                                                <menuItem id="GYD-ef-Zht"/>
+                                                <menuItem title="R Delt IM" id="Ne0-WJ-yXA"/>
+                                                <menuItem title="L Delt IM" id="0jU-1L-nDJ"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7BL-ay-Zcg">
+                                    <rect key="frame" x="242" y="345" width="155" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="3Y0-cG-AhU" id="zvB-qg-gHE">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="pDO-H1-LLH">
+                                            <items>
+                                                <menuItem state="on" id="3Y0-cG-AhU"/>
+                                                <menuItem title="R Forearm SC" id="aYr-mq-6MS"/>
+                                                <menuItem title="L Forearm SC" id="IzT-qc-BHs"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ti-rz-Le2">
+                                    <rect key="frame" x="34" y="325" width="14" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="C" id="nk6-t8-2RM">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YKj-Z2-783">
+                                    <rect key="frame" x="110" y="220" width="79" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="G7L-dz-t1s" id="Awq-Vk-C5w">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="Unh-v0-quB">
+                                            <items>
+                                                <menuItem state="on" id="G7L-dz-t1s"/>
+                                                <menuItem title="R Delt IM" id="HK4-ug-Gn5"/>
+                                                <menuItem title="L Delt IM" id="fb4-4h-zP2"/>
+                                                <menuItem title="R Glut IM" id="89J-jY-Qjy"/>
+                                                <menuItem title="L Glut IM" id="Uu7-Bp-Jav"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rTJ-74-6g5">
+                                    <rect key="frame" x="203" y="249" width="35" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="N/Ph" id="EpG-D8-LOt">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P7B-Jy-pVC">
+                                    <rect key="frame" x="54" y="120" width="343" height="26"/>
+                                    <animations/>
+                                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Location" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="gDC-av-HKP">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        <objectValues>
+                                            <string></string>
+                                        </objectValues>
+                                    </comboBoxCell>
+                                </comboBox>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5LZ-4j-bVU">
+                                    <rect key="frame" x="52" y="270" width="137" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="Vbo-Ux-KSG" id="qbP-2m-Sdt">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="JNW-MN-HK6">
+                                            <items>
+                                                <menuItem state="on" id="Vbo-Ux-KSG"/>
+                                                <menuItem title="R Delt IM" id="z6i-ib-5pB"/>
+                                                <menuItem title="R Delt SC" id="fvh-jb-8JK"/>
+                                                <menuItem title="L Delt IM" id="AHm-Ba-ZqF"/>
+                                                <menuItem title="L Delt SC" id="5kF-uh-NAd"/>
+                                                <menuItem title="R Glut IM" id="uWy-g0-OLV"/>
+                                                <menuItem title="R Glut SC" id="elL-sz-cD5"/>
+                                                <menuItem title="L Glut IM" id="LDa-am-rLb"/>
+                                                <menuItem title="L Glut SC" id="A31-BG-0D8"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nTy-LT-5vy">
+                                    <rect key="frame" x="16" y="50" width="44" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="A 2" bezelStyle="regularSquare" imagePosition="left" inset="2" id="ngj-yE-6AC">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RAQ-Hh-lap">
+                                    <rect key="frame" x="242" y="320" width="79" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="72k-cs-3wl" id="nL0-mc-1JE">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="UeM-O4-hJz">
+                                            <items>
+                                                <menuItem state="on" id="72k-cs-3wl"/>
+                                                <menuItem title="Fluarix" id="V5j-5S-JS6"/>
+                                                <menuItem title="FluzoneQuad" id="4Zo-Zd-aqR"/>
+                                                <menuItem title="Fluzone Hi Dose" id="m7w-gu-cRd"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Fu-oz-xUn">
+                                    <rect key="frame" x="110" y="72" width="42" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="B 3" bezelStyle="regularSquare" imagePosition="left" inset="2" id="THk-UK-xrb">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h0F-du-ipI">
+                                    <rect key="frame" x="207" y="299" width="31" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="PNV" id="NKR-xl-7Gn">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v2M-zp-umc">
+                                    <rect key="frame" x="209" y="174" width="29" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Epo" id="w2c-dn-16A">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KQq-tb-Rqf">
+                                    <rect key="frame" x="52" y="245" width="137" height="26"/>
+                                    <animations/>
+                                    <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="WbA-jr-dvI" id="yof-4Z-p97">
+                                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="menu"/>
+                                        <menu key="menu" title="OtherViews" id="TXb-cs-FdW">
+                                            <items>
+                                                <menuItem state="on" id="WbA-jr-dvI"/>
+                                                <menuItem title="R Delt IM" id="nY3-5J-USF"/>
+                                                <menuItem title="L Delt IM" id="q62-bT-eD7"/>
+                                                <menuItem title="R Glut IM" id="rIx-qK-tAv"/>
+                                                <menuItem title="L Glut IM" id="jaE-4Y-TP1"/>
+                                            </items>
+                                        </menu>
+                                    </popUpButtonCell>
+                                </popUpButton>
+                                <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5de-tk-vB6">
+                                    <rect key="frame" x="156" y="72" width="58" height="18"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="check" title="TRx 1" bezelStyle="regularSquare" imagePosition="left" inset="2" id="WRs-ar-3Ph">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pl8-05-NHT">
+                                    <rect key="frame" x="24" y="175" width="24" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Est" id="DD5-E8-Qh6">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <animations/>
+                        </view>
+                        <animations/>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Labs" borderType="line" translatesAutoresizingMaskIntoConstraints="NO" id="fRD-NS-Bjb">
+                        <rect key="frame" x="433" y="425" width="157" height="202"/>
+                        <view key="contentView" id="uPF-QG-Ilo">
+                            <rect key="frame" x="1" y="1" width="155" height="186"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oSN-Ob-2hd">
+                                    <rect key="frame" x="16" y="101" width="44" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="mUDS" id="Fel-s5-WEz">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K9H-YA-6gs">
+                                    <rect key="frame" x="27" y="73" width="34" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="UCG" id="Q0j-6x-6SG">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e5v-gA-d8K">
+                                    <rect key="frame" x="66" y="14" width="71" height="22"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="uRY-Cw-rgf">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKr-Zv-CJ8">
+                                    <rect key="frame" x="66" y="40" width="74" height="26"/>
+                                    <animations/>
+                                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Dx" placeholderString="Dx" drawsBackground="YES" completes="NO" numberOfVisibleItems="10" id="6Ar-sA-teh">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </comboBoxCell>
+                                </comboBox>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wvl-dN-A6i">
+                                    <rect key="frame" x="27" y="158" width="34" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Udip" id="ght-mH-aBZ">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IYY-8n-nkE">
+                                    <rect key="frame" x="66" y="96" width="74" height="26"/>
+                                    <animations/>
+                                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Dx" placeholderString="Dx" drawsBackground="YES" completes="NO" numberOfVisibleItems="10" id="58w-St-TCK">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </comboBoxCell>
+                                </comboBox>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NNh-Yn-pn1">
+                                    <rect key="frame" x="37" y="44" width="23" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Flu" id="sjR-eY-e7K">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3aF-1P-9Ch">
+                                    <rect key="frame" x="66" y="68" width="74" height="26"/>
+                                    <animations/>
+                                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Dx" placeholderString="Dx" drawsBackground="YES" completes="NO" numberOfVisibleItems="10" id="NPd-JO-g21">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </comboBoxCell>
+                                </comboBox>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QQ8-78-AKd">
+                                    <rect key="frame" x="27" y="17" width="33" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Gluc" id="5jk-lc-ncm">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wVE-sf-gnI">
+                                    <rect key="frame" x="66" y="124" width="74" height="26"/>
+                                    <animations/>
+                                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Dx" placeholderString="Dx" drawsBackground="YES" completes="NO" numberOfVisibleItems="10" id="ubh-ha-eJr">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </comboBoxCell>
+                                </comboBox>
+                                <comboBox verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgq-de-zt4">
+                                    <rect key="frame" x="66" y="152" width="74" height="26"/>
+                                    <animations/>
+                                    <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" title="Dx" placeholderString="Dx" drawsBackground="YES" completes="NO" numberOfVisibleItems="10" id="TkA-md-gpI">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                    </comboBoxCell>
+                                </comboBox>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="adT-iQ-8zG">
+                                    <rect key="frame" x="27" y="129" width="33" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="UDS" id="BUE-JB-Jqw">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                            </subviews>
+                            <animations/>
+                        </view>
+                        <animations/>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8s9-6b-tGG">
+                        <rect key="frame" x="506" y="13" width="87" height="32"/>
+                        <animations/>
+                        <buttonCell key="cell" type="push" title="Process" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="oSa-ar-CTK">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="takeProcessForm:" target="Voe-Tx-rLC" id="nyA-mp-8pf"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="09h-HZ-zoD">
+                        <rect key="frame" x="396" y="13" width="73" height="32"/>
+                        <animations/>
+                        <buttonCell key="cell" type="push" title="Clear" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9UO-t1-2Tm">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="takeClearForm:" target="Voe-Tx-rLC" id="ier-HC-IeC"/>
+                        </connections>
+                    </button>
+                    <box autoresizesSubviews="NO" fixedFrame="YES" title="Box" borderType="line" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="cMt-nu-g1a">
+                        <rect key="frame" x="433" y="57" width="157" height="366"/>
+                        <view key="contentView" id="atl-Dy-8HL">
+                            <rect key="frame" x="1" y="1" width="155" height="364"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="blq-OV-czz">
+                                    <rect key="frame" x="16" y="337" width="58" height="17"/>
+                                    <animations/>
+                                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Samples" id="CdX-xv-vJc">
+                                        <font key="font" metaFont="system"/>
+                                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                    </textFieldCell>
+                                </textField>
+                                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NOZ-Qo-cVR">
+                                    <rect key="frame" x="18" y="183" width="75" height="19"/>
+                                    <animations/>
+                                    <buttonCell key="cell" type="roundRect" title="Education" bezelStyle="roundedRect" imagePosition="overlaps" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="f43-bO-HrT">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="cellTitle"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="takeEducation:" target="Voe-Tx-rLC" id="TjP-x3-aae"/>
+                                    </connections>
+                                </button>
+                                <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOe-LJ-hRP">
+                                    <rect key="frame" x="18" y="14" width="119" height="166"/>
+                                    <clipView key="contentView" ambiguous="YES" id="z8b-dR-MGg">
+                                        <rect key="frame" x="1" y="1" width="102" height="164"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" smartInsertDelete="YES" id="7Lt-M8-ytg">
+                                                <rect key="frame" x="0.0" y="0.0" width="102" height="164"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <size key="minSize" width="102" height="164"/>
+                                                <size key="maxSize" width="463" height="10000000"/>
+                                                <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <size key="minSize" width="102" height="164"/>
+                                                <size key="maxSize" width="463" height="10000000"/>
+                                            </textView>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </clipView>
+                                    <animations/>
+                                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="92r-aY-qHk">
+                                        <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </scroller>
+                                    <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="HRB-3Y-WbN">
+                                        <rect key="frame" x="103" y="1" width="15" height="164"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </scroller>
+                                </scrollView>
+                                <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKG-5F-ps2">
+                                    <rect key="frame" x="18" y="210" width="119" height="122"/>
+                                    <clipView key="contentView" ambiguous="YES" id="WE5-CL-Agh">
+                                        <rect key="frame" x="1" y="1" width="102" height="120"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <subviews>
+                                            <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" smartInsertDelete="YES" id="8hb-ix-feJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="102" height="120"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <animations/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <size key="minSize" width="102" height="120"/>
+                                                <size key="maxSize" width="463" height="10000000"/>
+                                                <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                <size key="minSize" width="102" height="120"/>
+                                                <size key="maxSize" width="463" height="10000000"/>
+                                            </textView>
+                                        </subviews>
+                                        <animations/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </clipView>
+                                    <animations/>
+                                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="ayg-YA-qXU">
+                                        <rect key="frame" x="-100" y="-100" width="87" height="18"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </scroller>
+                                    <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="W29-ne-71V">
+                                        <rect key="frame" x="103" y="1" width="15" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <animations/>
+                                    </scroller>
+                                </scrollView>
+                            </subviews>
+                            <animations/>
+                        </view>
+                        <animations/>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </box>
+                </subviews>
+                <animations/>
             </view>
+            <point key="canvasLocation" x="125.5" y="412.5"/>
+        </window>
+        <window title="Education" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="7IF-2z-4Qj">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <rect key="contentRect" x="899" y="456" width="254" height="275"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1177"/>
+            <view key="contentView" id="PhL-Qw-hZ6">
+                <rect key="frame" x="0.0" y="5" width="254" height="275"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5sb-43-fBN">
+                        <rect key="frame" x="18" y="239" width="98" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Weight Loss" bezelStyle="regularSquare" imagePosition="left" inset="2" id="O2g-mk-ZHe">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="trU-Oi-ZAn">
+                        <rect key="frame" x="18" y="219" width="169" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Diabetic Diet &amp; Lifestyle" bezelStyle="regularSquare" imagePosition="left" inset="2" id="wmL-Ao-aQM">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VrJ-mC-1he">
+                        <rect key="frame" x="18" y="199" width="218" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Low Cholesterol Diet &amp; Lifestyle" bezelStyle="regularSquare" imagePosition="left" inset="2" id="PSm-it-icJ">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BfX-MT-F9p">
+                        <rect key="frame" x="18" y="179" width="169" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Low Salt &amp; Cardiac Diet" bezelStyle="regularSquare" imagePosition="left" inset="2" id="Nm9-mz-RW1">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L78-8q-OqN">
+                        <rect key="frame" x="18" y="159" width="159" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Hypertension Lifestyle" bezelStyle="regularSquare" imagePosition="left" inset="2" id="nLH-aq-sob">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ns-97-19f">
+                        <rect key="frame" x="18" y="139" width="101" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Dietary Fiber" bezelStyle="regularSquare" imagePosition="left" inset="2" id="c1a-3C-gNP">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NWP-hY-L22">
+                        <rect key="frame" x="18" y="119" width="177" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Coumadin/Vitamin K Diet" bezelStyle="regularSquare" imagePosition="left" inset="2" id="rOh-CV-UXn">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="anH-j2-peN">
+                        <rect key="frame" x="18" y="99" width="75" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Exercise" bezelStyle="regularSquare" imagePosition="left" inset="2" id="h1l-GB-WSc">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="76X-dA-CjP">
+                        <rect key="frame" x="18" y="79" width="140" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Tobacco Cessation" bezelStyle="regularSquare" imagePosition="left" inset="2" id="7X7-zp-Sjg">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TBA-3X-mO4">
+                        <rect key="frame" x="18" y="59" width="123" height="18"/>
+                        <animations/>
+                        <buttonCell key="cell" type="check" title="Stress &amp; Anxiety" bezelStyle="regularSquare" imagePosition="left" inset="2" id="qlp-0q-8DI">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p43-Bl-S0Z">
+                        <rect key="frame" x="174" y="13" width="66" height="32"/>
+                        <animations/>
+                        <buttonCell key="cell" type="push" title="Add" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LI8-C7-XoG">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="takeProcessEducation:" target="Voe-Tx-rLC" id="WqM-Qz-1Ap"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <animations/>
+            </view>
+            <point key="canvasLocation" x="-29" y="668.5"/>
         </window>
     </objects>
 </document>
